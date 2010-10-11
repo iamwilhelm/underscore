@@ -6,6 +6,10 @@
 // For all details and documentation:
 // http://documentcloud.github.com/underscore
 
+if ( typeof Underscore === "undefined" ) {
+
+    var Underscore = true;
+
 (function() {
   // ------------------------- Baseline setup ---------------------------------
 
@@ -711,3 +715,5 @@
   };
 
 })();
+
+}
